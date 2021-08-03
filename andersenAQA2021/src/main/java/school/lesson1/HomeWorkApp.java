@@ -1,6 +1,6 @@
 package school.lesson1;
 
-public class Main {
+public class HomeWorkApp {
 
     public static void printThreeWords() {
         System.out.println("Orange");
@@ -41,10 +41,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-      Main.printThreeWords();
-      Main.checkSumSign();
-      Main.printColor();
-      Main.compareNumbers();
+      HomeWorkApp.printThreeWords();
+      HomeWorkApp.checkSumSign();
+      HomeWorkApp.printColor();
+      HomeWorkApp.compareNumbers();
 
     }
 
