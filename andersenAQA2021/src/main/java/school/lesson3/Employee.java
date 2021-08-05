@@ -18,6 +18,53 @@ public class Employee {
         this.age = age;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getPost() {
+        return post;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPost(String post) {
+        this.post = post;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 
     public String toString() {
         return name + ", " + post + ", " + email + ", " + phone + ", " + salary + ", " + age;
@@ -33,7 +80,7 @@ public class Employee {
         empArray[4] = new Employee("Шариков Александр Сергеевич", "Доцент", "eee@gmail.com", "123 45 78", 2500.50, 45);
 
         for (Employee emp : empArray) {
-            if (emp.age > 40) {
+            if (emp.getAge() > 40) {
                 System.out.println(emp.toString());
             }
         }
